@@ -52,13 +52,14 @@ main{
 
 section{
     padding-left: 20px ;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 
 section#dois{
     color: white;
-    background: url(pacote-d012/imagens/background001.jpg) no-repeat fixed right center;
+    background: url(pacote-d012/imagens/background001.jpg) no-repeat fixed right bottom;
     background-size: cover;
     padding: 20px;
 
@@ -72,7 +73,7 @@ section#dois > div{
 
 section#cinco{
     color: white;
-    background: url(pacote-d012/imagens/background002.jpg) no-repeat fixed right center;
+    background: url(pacote-d012/imagens/background002.jpg) no-repeat fixed right bottom;
     background-size: cover;
     padding: 20px;
 }
