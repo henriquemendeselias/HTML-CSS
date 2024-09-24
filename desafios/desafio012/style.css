@@ -53,16 +53,18 @@ main{
 section{
     padding-left: 20px ;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 
 }
+
+section > p { padding-bottom: 2em;}
 
 section#dois{
     color: white;
     background: url(pacote-d012/imagens/background001.jpg) no-repeat fixed right bottom;
     background-size: cover;
     padding: 20px;
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.651);
 }
 
 section#dois > div{
@@ -71,17 +73,26 @@ section#dois > div{
     padding: 10px;
 }
 
+section#dois > div > p {
+    text-shadow: 1.5px 1.5px black;
+}
+
 section#cinco{
     color: white;
     background: url(pacote-d012/imagens/background002.jpg) no-repeat fixed right bottom;
     background-size: cover;
     padding: 20px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.651);
 }
 
 section#cinco > div{
     background-color: rgba(0, 0, 0, 0.292);
     display: inline-block;
     padding: 10px;
+}
+
+section#cinco > div > p {
+    text-shadow: 1.5px 1.5px black;
 }
 
 footer{
