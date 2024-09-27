@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 5</title>
+</head>
+<style>
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    table{
+        max-width: 500px;
+        border-collapse: collapse;
+        margin: auto;
+    }
+
+    caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    th,td {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    th{
+        background-color: gray;
+        color: white;
+    }
+
+    .cnome{
+        background-color: lightgray;
+    }
+    .csexo{
+        background-color: lightgoldenrodyellow;
+    }
+
+    .cidadecprof{
+        background-color: aquamarine;
+    }
+
+</style>
+<body>
+    <h1>Exercicios de tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidadecprof" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Laura</td>
+            <td>F</td>
+            <td>17</td>
+            <td>Biomédica</td>
+        </tr>
+        <tr>
+            <td>Henrique</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Eng. de Soft.</td>
+        </tr>
+        <tr>
+            <td>Danilton</td>
+            <td>M</td>
+            <td>51</td>
+            <td>Empresário</td>
+        </tr>
+        <tr>
+            <td>Marta Kellem</td>
+            <td>F</td>
+            <td>47</td>
+            <td>Farmacêutica</td>
+        </tr>
+        <tr>
+            <td>Luana</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Lorena</td>
+            <td>F</td>
+            <td>11</td>
+            <td>-</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
