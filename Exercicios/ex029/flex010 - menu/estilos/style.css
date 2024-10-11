@@ -13,8 +13,8 @@ html, body {
 
 header {
     background-color: gray;
-    display: row flex;
-    flex-flow: wrap;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     padding: 15px;
 }
