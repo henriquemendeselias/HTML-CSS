@@ -9,6 +9,8 @@
 
 html, body {
     background-color: lightgray;
+    height: 100vh;
+    width: 100vw;
 }
 
 header {
@@ -33,7 +35,6 @@ header > menu > ul {
     display: flex;
     flex-flow: row nowrap;
     list-style-type: none;
-    
 }
 
 header > menu > ul > li {

@@ -3,7 +3,7 @@
 @media screen and (max-width: 650px) {
 
     header {
-        display: block;
+        flex-flow: column nowrap;
     }
 
     header > h1 {
@@ -12,11 +12,11 @@
     }
 
     header > menu {
-        display: block;
+        flex-flow: column nowrap;
     }
 
     header > menu > ul {
-        display: block;
+       flex-flow: column nowrap;
     }
 
     header > menu > ul > li {
